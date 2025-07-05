@@ -7,4 +7,4 @@ Built with React, Express, Jupyter Notebook, and SingleStoreDB; using TypeScript
 
 
 
-To run this app, you will first have to set up your SingleStore account (database + Jupyter notebook), make a .env file with your Host, DB_Port, Password details, then run in terminal with npm run dev. You can change your stocks watchlist in client/data.ts. Keep an eye out - I have some updates planned.
+To run this app, you will first have to set up your SingleStore account (database + Jupyter notebook), make a .env file with your Host, DB_Port, Password details, then run in terminal with npm run dev. You can change your stocks watchlist in client/data.ts. Plan to build a data scraper for tweets soon, so keep an eye out for that update.

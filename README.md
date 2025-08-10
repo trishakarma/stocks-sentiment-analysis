@@ -1,5 +1,5 @@
 # stocks-sentiment-analysis
-Full-stack web app that visualizes your portfolio performance with real-time market data, alongside sentiment analysis from tweets. Tweets are embedded using sentence-transformers and stored as vector embeddings in a SingleStore database.
+Full-stack web app that visualizes your portfolio performance with real-time market data, alongside sentiment analysis from tweets. Tweets are embedded using sentence-transformers and stored as vector embeddings in a SingleStore database. Logistic Regression based model is used to analyze sentiment (80-20 training test split). 
 
 Built with React, Express, Jupyter Notebook, and SingleStoreDB; using TypeScript, Python, SQL, HTML, and JavaScript.
 
@@ -7,4 +7,4 @@ Built with React, Express, Jupyter Notebook, and SingleStoreDB; using TypeScript
 
 
 
-To run this app, you will first have to set up your SingleStore account (database + Jupyter notebook), make a .env file with your Host, DB_Port, Password details, then run in terminal with npm run dev. You can change your stocks watchlist in client/data.ts. Plan to build a data scraper for tweets soon.
+To run this app, you will first have to set up your SingleStore account (database + Jupyter notebook), make a .env file with your Host, DB_Port, Password details, then run in terminal with npm run dev. You can change your stocks watchlist in client/data.ts. 
